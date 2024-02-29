@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamioh-dayam7/dayam7-lb.git'  //do change this
         
-        KUBECONFIG = credentials('roseaw-225')  //do change this
+        KUBECONFIG = credentials('dayam7-225')  //do change this
     }
 
     stages {
